@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT ?? 8080;
 
 app.get("/", (req, res) => {
-  return res.json({ msg: "hellow from server ji" });
+  return res.json({ msg: "changerd hellow from server ji" });
 });
 
 app.listen(PORT, () => {
